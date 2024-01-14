@@ -1,5 +1,5 @@
 print('INGREDIENTES - AREPA')
-
+#Creación de la arepa
 agua = int(input("Cuantas tazas de agua?: "))
 harina = int(input("Cuantas tazas de harina?: "))
 sal = float(input("Cuantas cucharadas de sal?: "))
@@ -8,7 +8,9 @@ boul = agua + harina + sal
 budare = aceite + boul 
 print(f'Cantidad de arepa {budare}')
 print('Que ingrediente deseas ?: ')
-#Conversón de =l string a int o float se llama un casting3
+
+
+#Selección de sabores para la arepa
 sabor = int(input(('Sabores: \n 1- Jamon \n 2- Carne \n 3- Queso \n 4- Aguacate \n 5- Pollo. \n Elija el número de su ingredient.')))
 if sabor == 1:
     print(f'Su cantidad de arepas {budare} son de Jamon')
