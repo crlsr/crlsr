@@ -14,8 +14,6 @@ class VehiculoAereo(Vehiculo):
         
     def __str__(self):
         return f'Vehiculo: {self.marca} ({self.tipo})\nColor: {self.color}\nPrecio: {self.precio}'
-    def __repr__(self):
-        return f'{self.marca} ({self.tipo})'
         
 class VehiculoTerrestre(Vehiculo):
     def __init__(self, marca, color, precio, tipo):
